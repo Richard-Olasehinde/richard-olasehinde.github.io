@@ -1,1 +1,3 @@
+OWNERDOMAIN=richard-olasehinde.github.io
+ironsrc.com, 690811, DIRECT
 google.com, pub-4237037992635463, DIRECT, f08c47fec0942fa0

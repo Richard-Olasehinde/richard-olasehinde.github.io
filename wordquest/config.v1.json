@@ -1,0 +1,13 @@
+{
+  "schema": "wq.config",
+  "version": 1,
+  "issuedAt": "2026-10-15T00:00:00Z",
+  "values": {
+    "analyticsEnabled": true,
+    "progressionEventsEnabled": true,
+    "economyEventsEnabled": true,
+    "interactionEventsEnabled": true,
+    "sessionSnapshotEnabled": true,
+    "sampleRatePercent": 100
+  }
+}

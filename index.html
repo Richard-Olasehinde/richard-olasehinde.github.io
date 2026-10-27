@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Obsidixz is the publisher name behind Word Quest.">
+  <title>Obsidixz</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #10131c;
+      color: #f4f6fb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+
+    main {
+      width: min(100%, 760px);
+      padding: clamp(28px, 7vw, 64px);
+      border: 1px solid #30384b;
+      border-radius: 24px;
+      background: #181e2b;
+    }
+
+    .brand {
+      color: #a9b8ff;
+      font-size: .9rem;
+      font-weight: 700;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 14px 0;
+      font-size: clamp(2.5rem, 8vw, 4.5rem);
+      line-height: 1;
+    }
+
+    p {
+      color: #c8cede;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    a {
+      color: #dce3ff;
+      text-underline-offset: 4px;
+    }
+
+    .primary {
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 12px;
+      background: #6578ef;
+      color: white;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #30384b;
+      color: #aeb6c8;
+      font-size: .9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">Obsidixz</div>
+    <h1>Welcome</h1>
+    <p>
+      Obsidixz is the publisher name behind Word Quest, a word puzzle game
+      made for a general audience.
+    </p>
+
+    <nav aria-label="Word Quest links">
+      <a class="primary" href="/wordquest/">Explore Word Quest</a>
+      <a href="/wordquest/privacy-policy.html">Privacy Policy</a>
+      <a href="/wordquest/terms-of-service.html">Terms of Service</a>
+    </nav>
+
+    <footer>
+      For Word Quest support, use the support contact on its Google Play listing.
+    </footer>
+  </main>
+</body>
+</html>
